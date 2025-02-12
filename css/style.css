@@ -91,16 +91,16 @@ h2 {
  width: 1100px;
  font-family: "Quicksand", serif;
  font-weight: 400px;
- font-size: 60px;
+
  font-style: normal;
- color: orange;
+ color: #D35400;
 }
 
 .guillemetsFrancais {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     background-color: white;
-    border: 6px solid orange; 
+    border: 6px solid #D35400; 
     border-radius: 50%; 
     display: flex;
     justify-content: center;
@@ -108,42 +108,40 @@ h2 {
     
 }
 
-.guillemets .phrase {
-    color: black;
-    font-size: 25px; 
+.guillemets span{
+    color: #D35400;
+    font-size: 40px;
 }
+
+.guillemets .phrase {
+    font-size: 24px;
+}    
+
 /* section espace */
-.espace a {
+   .espace a {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
     align-items: center;
     gap: 60px;
     width: 1100px;
+    height: 320px;
     font-family: "Quicksand", serif;
     font-weight: 400px;
-    font-size: 60px;
-    font-style: normal;
-    color: orange;
-    order: 1;
+    color: black;
    }
    
-   .espaceExp {
-       height: 200px;
-       width: 200px;
-       background-color: white;
-       border: 6px solid orange; 
-       border-radius: 50%; 
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       
+.espaceExp {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border: 6px solid #D35400; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 40px;
+    color: #D35400;
    }
-   
-   .espace .phrase {
-       color: black;
-       font-size: 25px; 
-   }
-
 
 
 
