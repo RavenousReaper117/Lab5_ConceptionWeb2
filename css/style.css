@@ -81,7 +81,7 @@ h2 {
   margin-bottom: 0px;
 }
 
-/* Section guillemets*/ 
+/* article guillemets*/ 
 
 .guillemets a {
  display: flex;
@@ -116,7 +116,7 @@ h2 {
     font-size: 24px;
 }    
 
-/* section espace */
+/* article espace */
    .espace a {
     display: flex;
     justify-content:center;
@@ -147,9 +147,68 @@ h2 {
     font-size: 25px;
 }
 
-/* 
+/* article windows */
 
+.windows a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60px;
+    width: 1100px;
+    font-family: "Quicksand", serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: black;
+}
 
+.windows span {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border: 6px solid #D35400; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 35px;
+    color: #D35400;
+}
+
+.windows p {
+    font-size: 25px;
+}
+
+/* article lineHeight */
+ .lineHeight a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60px;
+    width: 1100px;
+    font-family: "Quicksand", serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: black;
+ }
+
+ .lineHeight span {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border: 6px solid #D35400; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 30px;
+    color: #D35400;
+ }
+
+ .lineHeight p {
+    font-size: 25px;
+ }
 
 
 
