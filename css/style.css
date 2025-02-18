@@ -210,6 +210,21 @@ h2 {
     font-size: 25px;
  }
 
+ /* aside */
+
+ aside .wrapper {
+    margin-top: 20px;
+    width: 1010px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    gap: 40px;
+ }
+
+ aside span {
+    font-weight: bold;
+ }
 
 
 
